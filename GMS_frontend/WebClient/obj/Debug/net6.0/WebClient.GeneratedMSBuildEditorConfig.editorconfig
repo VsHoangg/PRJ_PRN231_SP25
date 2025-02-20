@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Semester8/gms/GMS_frontend/WebClient/Pages/admin/Semester.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cU2VtZXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Semester8/gms/GMS_frontend/WebClient/Pages/admin/UpdateDistribution.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cVXBkYXRlRGlzdHJpYnV0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
