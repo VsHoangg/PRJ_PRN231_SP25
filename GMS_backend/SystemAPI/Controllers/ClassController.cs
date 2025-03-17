@@ -1,4 +1,4 @@
-﻿/*using BussinessObject.DTO.Class;
+﻿using BussinessObject.DTO.Class;
 using DataAccess.Repository.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -56,4 +56,3 @@ namespace SystemAPI.Controllers
         }
     }
 }
-*/
