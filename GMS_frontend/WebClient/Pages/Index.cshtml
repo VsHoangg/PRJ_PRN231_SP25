@@ -1,0 +1,110 @@
+﻿@page
+@inject IHttpContextAccessor HttpContextAccessor;
+@model IndexModel
+@using WebClient.DTO.User;
+@using Newtonsoft.Json
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<div id="particles-js"></div>
+@{
+    var json = HttpContextAccessor.HttpContext.Session.GetString("currentUser");
+    var user = json != null ? JsonConvert.DeserializeObject<GetUserDTO>(json) : null;
+}
+
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container d-flex flex-column align-items-center justify-content-center min-vh-100">
+    <div class="text-center">
+        <h1 class="display-4 fw-bold title-gradient">PROJECT PRN231</h1>
+        <p class="lead text-muted">Hệ thống quản lý điểm sinh viên</p>
+    </div>
+
+    @if (user == null)
+    {
+        <div class="ascii-container">
+            <pre class="ascii-art">@Model.AsciiArt</pre>
+            <h2 class="highlight-text">10 Điểm Project</h2>
+        </div>
+    }
+</div>
+
+<style>
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    }
+    /* Gradient tiêu đề */
+    .title-gradient {
+        font-size: 42px;
+        text-transform: uppercase;
+        background: linear-gradient(135deg, #4CAF50, #2196F3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    /* Căn giữa toàn bộ nội dung */
+    .container {
+        text-align: center;
+    }
+
+    /* Căn giữa và làm nổi bật ASCII art */
+    .ascii-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 600px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-top: 30px;
+    }
+
+    .ascii-art {
+        font-family: "Courier New", monospace;
+        color: orange;
+        white-space: pre-wrap;
+        font-size: 16px;
+        text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.7);
+    }
+
+    .highlight-text {
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffcc00;
+        text-transform: uppercase;
+        margin-top: 10px;
+        text-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+    }
+
+    /* Responsive */
+    @@media (max-width: 600px) {
+        .ascii-art {
+            font-size: 14px;
+        }
+
+        .highlight-text {
+            font-size: 22px;
+        }
+    }
+</style>
+<script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 80 },
+            shape: { type: "circle" },
+            size: { value: 3 },
+            move: { speed: 2 }
+        }
+    });
+</script>
