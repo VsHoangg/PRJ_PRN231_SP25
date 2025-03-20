@@ -587,3 +587,4 @@ D:\Semester8\GMS_frontend\WebClient\obj\Debug\net6.0\refint\WebClient.dll
 D:\Semester8\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.pdb
 D:\Semester8\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.genruntimeconfig.cache
 D:\Semester8\GMS_frontend\WebClient\obj\Debug\net6.0\ref\WebClient.dll
+D:\Semester8\gms\GMS_frontend\WebClient\obj\Debug\net6.0\WebClient.sourcelink.json

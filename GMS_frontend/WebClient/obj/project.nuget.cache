@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "reWTnjGI1uTSzhTWYVQMyBia3mHHFQyVq0kur8h8sqnVUlcKv1TW0U9YKI+npHALWGouyK2M4uTiQUJeRaAhPw==",
+  "dgSpecHash": "tPJbFMCHQtx/dbap3NsI8mL4OdHQDcLWVQYqhMleLGpAZIgP4EFGfCLwxiYJlUk68Er7tjhPaI9kFe3oqEd7Gg==",
   "success": true,
-  "projectFilePath": "D:\\Semester8\\GMS_frontend\\WebClient\\WebClient.csproj",
+  "projectFilePath": "D:\\Semester8\\gms\\GMS_frontend\\WebClient\\WebClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\closedxml\\0.102.3\\closedxml.0.102.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",

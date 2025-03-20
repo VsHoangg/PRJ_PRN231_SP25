@@ -5940,11 +5940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester8\\GMS_frontend\\WebClient\\WebClient.csproj",
+      "projectUniqueName": "D:\\Semester8\\gms\\GMS_frontend\\WebClient\\WebClient.csproj",
       "projectName": "WebClient",
-      "projectPath": "D:\\Semester8\\GMS_frontend\\WebClient\\WebClient.csproj",
+      "projectPath": "D:\\Semester8\\gms\\GMS_frontend\\WebClient\\WebClient.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester8\\GMS_frontend\\WebClient\\obj\\",
+      "outputPath": "D:\\Semester8\\gms\\GMS_frontend\\WebClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
