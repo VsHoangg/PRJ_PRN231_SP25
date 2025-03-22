@@ -1,4 +1,4 @@
-﻿using DataAccess.Repository.Interfaces;
+﻿/*using DataAccess.Repository.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,3 +30,4 @@ namespace SystemAPI.Controllers
         }
     }
 }
+*/
